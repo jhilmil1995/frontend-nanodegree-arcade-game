@@ -16,4 +16,4 @@ To run this game navigate to the **index.html** in any browser.
 
 ## Play Game
 
-Navigate the player movements using the keyboard arrow keys. The goal is to get the player from one side tothe river without any collisions with the bugs.
+Navigate the player movements using the keyboard arrow keys. The goal is to get the player from one side of the river without any collisions with the bugs.
