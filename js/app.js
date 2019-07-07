@@ -54,7 +54,8 @@ var Player = function() {
 
 Player.prototype.update = function(dt) {
     if (this.y === -20) {
-        alert('you won');
+        numWin +=1;
+        alert(`You Won! Games won: ${numWin}`);
         createBugs();
         this.reset();
     }
@@ -91,6 +92,7 @@ Player.prototype.reset = function() {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
+var numWin = 0;
 const player = new Player();
 var allEnemies;
 createBugs();
